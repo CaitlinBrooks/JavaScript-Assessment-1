@@ -16,5 +16,5 @@ me.age = 31
 me['hair color'] = 'Blonde'
 
 for (var key in me) {
-
+	console.log(key, me[key])
 }
