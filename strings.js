@@ -27,16 +27,28 @@ var jsHistory = 'JavaScript, not to be confused with Java, was created in 10 day
 
 function countLetterA(str) {
 
-  let total = 0;
-  for (i = 0; i < str.length; i++) {
-    const char = str[i];
-    if (str.toLowerCase() == 'a') {
-    }
-  }
-  return total;
+  //   let total = 0;
+  //   for (i = 0; i < str.length; i++) {
+  //     const char = str[i];
+  //     if (str.toLowerCase() == 'a') {
+  //     }
+  //   }
+  //   return total;
+  // }
+
+  //3. Given the following sentence: Uppercase the entire word scream each time it appears in the sentence 
+  //I SCREAM, you SCREAM, we all SCREAM for icecream
+
+  //   var text = 'I scream, you scream, we all scream for icecream';
+  //   function scream(str) {
+  //     let strArray = str.split(" ")
+  //     for (let i = 0; i < strArray.length; i++) {
+  //       const word.includes ('scream')) {
+  //         strArray[i] = word.toUpperCase()
+  //       }
+
+  //     }
+  //   }
+  //   return strArray.join(){
+
 }
-
-//3. Given the following sentence: Uppercase the entire word scream each time it appears in the sentence 
-//I SCREAM, you SCREAM, we all SCREAM for icecream
-
-var text = 'I scream, you scream, we all scream for icecream';
