@@ -1,7 +1,6 @@
-//1. What is the lenth of the following contacts array?
+//1. What is the length of the following contacts array?
 
 var contacts = [];
-
 
 //2. Add the following people to the contacts array.
 
