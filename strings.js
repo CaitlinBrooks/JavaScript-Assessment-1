@@ -16,12 +16,12 @@ var jsHistory = 'JavaScript, not to be confused with Java, was created in 10 day
 
 function countLetterA(str, char) {
 
-  var times = 0;
-  for (times = 0; times < str.length; times++) {
-    if (str.charAt(times) === char)
-      times++;
+  var i = 0;
+  for (i = 0; i < str.length; i++) {
+    if (str.countLetterA(i) == char)
+      i++;
   }
-  return times;
+  return countLetterA;
 }
 
 
